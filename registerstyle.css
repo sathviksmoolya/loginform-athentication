@@ -1,0 +1,35 @@
+/* css reset  */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* body style */
+body{
+    background-color: rgb(196, 37, 196);
+}
+
+/* form styling  */
+.regcontainer{
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    background-color: aqua;
+    transform: translate(-50%,-50%);
+}
+
+.regcontainer .regform{
+    width: 209px;
+    border: 2px solid black;
+    padding: 94px;
+}
+
+.regcontainer .regform input,label,button{
+    font-size: 19px;
+}
+.regcontainer .regform h2{
+    padding: 20px;
+}
+.regcontainer .regform input{
+    border: none;
+    outline: none;
+}
